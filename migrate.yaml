@@ -1,0 +1,21 @@
+# database metadata
+engine: "PostgreSQL"
+dbname: "JobApplications"
+
+# migrations to be executed
+migrations:
+
+  # table definitions
+  tables:
+    always: False
+    recursive: False
+
+  # procedures definitions
+  procedures:
+    always: True
+    recursive: False
+
+  # migration scripts
+  migrations:
+    always: False
+    recursive: False
