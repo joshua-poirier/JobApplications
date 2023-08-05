@@ -9,6 +9,17 @@ migrations:
   tables:
     always: False
     recursive: False
+    order:
+      - 'actions.sql'
+      - 'companies.sql'
+      - 'job_levels.sql'
+      - 'states.sql'
+      - 'people.sql'
+      - 'referrals.sql'
+      - 'applications.sql'
+      - 'application_actions.sql'
+      - 'interviews.sql'
+      - 'interview_attendees.sql'
 
   # procedures definitions
   procedures:
