@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS public.People
     ,name                   VARCHAR(256)    NOT NULL
     ,company_id             INTEGER         NULL
     ,job_title              VARCHAR(128)    NULL
-    ,notes                  VARCHAR(256)    NULL
+    ,notes                  TEXT            NULL
 
     /*  primary key definition */
     ,PRIMARY KEY    (person_id)
